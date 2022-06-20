@@ -3,7 +3,10 @@ import './body.css';
 function Body() {
   return (
 <section className='cuerpo'>
-
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
 </section>
   );
 }
