@@ -1,7 +1,7 @@
 
 import './navbar.css';
 
-function navbar() {
+function Navbar() {
   return (
 <header>
  <button>Home</button>
@@ -11,4 +11,4 @@ function navbar() {
   );
 }
 
-export default navbar;
+export default Navbar;
