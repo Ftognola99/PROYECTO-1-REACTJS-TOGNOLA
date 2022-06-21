@@ -7,17 +7,22 @@ function Contador(){
         setNum(num+1)
     }
 
-    const restarnum= () =>{
+    const resta= () =>{
         setNum(num -1)
 
     }
+
+    const reiniciar= () =>{
+        setNum(0)
+    }
+
     return(
 
         <>
         <p>{num}</p>     
-        <button oneClick={sumar}>suma!</button>   
-
-        
+        <button oneClick={sumar}>suma!</button>  
+        <button oneClick={resta}>resta!</button>
+        <button oneClick={reiniciar}>reiniciar!</button>
         </>
 
     )
