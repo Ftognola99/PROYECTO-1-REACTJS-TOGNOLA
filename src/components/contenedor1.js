@@ -7,7 +7,7 @@ function Contenedor() {
     return(
         <>
             <Hello name></Hello>
-            <button onClick={() => setName("mundo")}>Click me!</button>
+             <button onClick={() => setName("mundo")}>Click me!</button> 
         </>
     )
 }
