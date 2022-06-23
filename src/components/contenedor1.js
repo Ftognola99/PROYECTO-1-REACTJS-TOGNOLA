@@ -7,7 +7,7 @@ function Contenedor() {
     const [name, setName] = useState ('world')
     return(
         <>
-            <Hello name={}></Hello>
+            <Hello name></Hello>
             <button oneClick={() => setName("mundo")}>Click me!</button>
         </>
     )

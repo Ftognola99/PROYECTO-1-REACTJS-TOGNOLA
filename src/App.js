@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Body from './components/body';
 import Navbar from './components/navbar';
@@ -13,6 +12,8 @@ function App() {
       <Body/>
       <Card/>
       <Hello/>
+      
+      
       
        
     </div>
