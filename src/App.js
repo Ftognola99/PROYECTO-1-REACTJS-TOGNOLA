@@ -2,9 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import Body from './components/body';
 import Navbar from './components/navbar';
-import Card from './components/card';
 import Hello from './components/hello';
 import Contador from './components/contador';
+import Card from './components/card';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Body/>
       <Card/>
       <Hello/>
+      
        
     </div>
   );

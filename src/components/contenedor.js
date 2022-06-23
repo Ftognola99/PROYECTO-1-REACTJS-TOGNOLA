@@ -1,5 +1,6 @@
 import {useState} from "react";
 import hello from "./hello";
+import Hello from "./hello";
 
 
 function Contenedor() {
