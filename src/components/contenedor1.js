@@ -1,5 +1,4 @@
 import {useState} from "react";
-import hello from "./hello";
 import Hello from "./hello";
 
 
@@ -8,7 +7,7 @@ function Contenedor() {
     return(
         <>
             <Hello name></Hello>
-            <button oneClick={() => setName("mundo")}>Click me!</button>
+            <button onClick={() => setName("mundo")}>Click me!</button>
         </>
     )
 }
