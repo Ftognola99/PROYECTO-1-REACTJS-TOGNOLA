@@ -1,31 +1,37 @@
 import { useState } from "react";
 
 function Contador(){
-    const [num, setNum] =useState(0);
+const [suma, setSuma] = useState(0)
+const [otraSuma, setOtrasuma] = useState(0)
+
+useEffect(()=>{
+    console.log('efecto');
+})
+
+userEffect(()=>{
+    console.log('efecto en mounting');
+})
+
+useEffect(()=>{
+    console.log('efecto en cambio de suma');
+})
+
+const onClickHander=()=>{
+    console.log('click onClickHander')
+    setSuma(suma + 1)
+}
+
+const otraSumaHandler = () =>{
+    console.log('click onOtraSumaHandler')
+    setOtrasuma(Otrasuma + 1 )
+}
+return (
+    <div>
+        <button onClick={onClickHander} classname="btn">Click Aqui!!</button> 
+        <button onClick={otraSumaHandler} classname="btn">Otra suma</button> 
+    </div>
+)
     
-    const sumar= () => {
-        setNum(num + 1)
-    }
-
-    const resta= () =>{
-        setNum(num - 1)
-
-    }
-
-    const reiniciar= () =>{
-        setNum(0)
-    }
-
-    return(
-
-        <>
-        <p>{num}</p>     
-        <button onClick={sumar}>suma!</button>  
-        <button onClick={resta}>resta!</button>
-        <button onClick={reiniciar}>reiniciar!</button>
-        </>
-
-    )
 }
 
 
